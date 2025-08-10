@@ -1,0 +1,322 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #00aeff; /* Azul-marinho */
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('imagem 1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position: center 999px;
+  color: #f5f5f5;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  color: #00aeff; /* Verde-limão */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  color: #020202;
+}
+
+
+.hero button {
+  background-color: #f06292; /* Rosa */
+  color: white;
+  margin-left: 50%;
+  padding: 15px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-final button {
+  background-color: #f06292; /* Rosa */
+  color: white;
+  padding: 15px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+.cta-final button:hover {
+  background-color: #ffb74d; /* Laranja suave */
+  color: #1a237e;
+}
+
+.beneficios {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #e3f2fd, #fce4ec);
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 2.2rem;
+  color: #1a237e;
+  margin-bottom: 50px;
+}
+
+.beneficios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.beneficio-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.beneficio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.beneficio-card .icone {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #f06292;
+}
+
+.beneficio-card h3 {
+  font-size: 1.3rem;
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.beneficio-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}
+
+.sobre {
+  padding: 60px 20px;
+  background-color: #fce4ec; /* rosa bem claro */
+}
+
+.sobre-container {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.sobre img {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sobre-texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+.sobre-texto h2 {
+  font-size: 2rem;
+  color: #00aeff;
+  margin-bottom: 15px;
+}
+
+.sobre-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #424242;
+}
+
+.depoimentos {
+  background-color: #ede7f6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.depoimentos h2 {
+  font-size: 2rem;
+  color: #00aeff;
+  margin-bottom: 40px;
+}
+
+.cards-depoimentos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card .texto {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: #00aeff;
+}
+
+.card .nome {
+  font-weight: bold;
+  color: #283593;
+  margin-bottom: 5px;
+}
+
+.card .estrelas {
+  color: #fbc02d;
+  font-size: 1.2rem;
+}
+
+.como-funciona {
+  background-color: #f3e5f5; /* lilás suave */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.como-funciona h2 {
+  font-size: 2rem;
+  color: #00aeff;
+  margin-bottom: 40px;
+}
+
+.etapas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.etapa {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.etapa h3 {
+  font-size: 1.3rem;
+  color: #f06292; /* rosa */
+  margin-bottom: 10px;
+}
+
+.etapa p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1a237e;
+}
+
+.cta-final {
+  position: relative;
+  padding: 80px 20px;
+  overflow: hidden;
+  background-color: #00aeff;
+  display: flex;
+  justify-content: flex-end; /* conteúdo vai para a direita */
+  align-items: center;
+  height: 400px;
+}
+
+.cta-final .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 25, 47, 0.6); /* azul marinho escuro com transparência */
+  z-index: 1;
+}
+
+.cta-final .img-fundo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  /* REMOVIDO:
+     opacity: 0.25;
+     filter: blur(1px);
+  */
+}
+
+.cta-conteudo {
+  position: relative;
+  z-index: 2; /* aumentamos de 1 para 2 */
+  max-width: 500px;
+  margin-right: 40px;
+  color: white;
+}
+
+.cta-conteudo h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00aeff;
+}
+
+.cta-conteudo p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-conteudo button {
+  background-color: #f06292;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cta-conteudo button:hover {
+  background-color: #ffb74d;
+  color: #1a237e;
+}
+
+.rodape {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #e3f2fd, #fce4ec);
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.95rem;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
